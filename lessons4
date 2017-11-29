@@ -1,0 +1,19 @@
+public  class  Method2Example {
+
+    статический  int x =  100 ; // созда глобальную переменную
+
+    static  void  printHello () {
+        x =  999 ;    // пишем в глобальнойную переменную
+    }
+
+    public  static  void  main ( String [] args ) {
+        x =  99 ;     // созда глобальную переменную
+
+        float x =  0 ; // созда локальную переменную
+        x =  100 ;    // пишем в локальную переменную
+
+        printHello ();
+
+        Пример метода . printArray ( новый  int [] { 1 , 2 , 3 });
+    }
+}
