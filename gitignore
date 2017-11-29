@@ -1,0 +1,49 @@
+# Обложки IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio и Webstorm
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательский материал:
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / словари
+
+# Чувствительные или файлы с высоким уровнем оттока:
+.idea / ** / DataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.xml
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+
+# Gradle:
+.idea / ** / gradle.xml
+.idea / ** / библиотеки
+
+# CMake
+CMake-сборка-отладка /
+
+# Плагин Mongo Explorer:
+.idea / ** / mongoSettings.xml
+
+## Формат файла на основе файлов:
+* .iws
+
+## Файлы, зависящие от плагина:
+
+# IntelliJ
+вне/
+
+# mpeltonen / sbt-idea плагин
+.idea_modules /
+
+# JIRA плагин
+Atlassian-ида-plugin.xml
+
+# Курсивный плагин Clojure
+.idea / replstate.xml
+
+# Плагин Crashlytics (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
